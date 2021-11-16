@@ -1,0 +1,71 @@
+@import url(https://fonts.google.com/specimen/Inter);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+  
+}
+h2{
+    text-align: left;
+    color: white;
+    padding-right: 5%;
+}
+.outer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+  }
+.stats{
+        font-size: 12px;
+        opacity: 0.5;
+        padding-right: 10%;  
+        padding-top: 0px;
+        text-align: center;
+}
+.raw{
+    padding-right: 18%;
+}
+p{
+    font-family: 'Lexend Deca' , sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 60px;
+   
+    opacity: 0.6;
+    line-height: 20px;
+}
+.card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 20px;
+    width: 68%;
+    height: 40%;
+    margin-left: 30x;
+    
+}
+.image{
+    border-radius: 0px 20px 20px 0px ;
+    padding-left: 85px;
+    mix-blend-mode: lighten;
+}
